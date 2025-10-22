@@ -19,8 +19,8 @@ class TaskManager {
 
     // Marquer une tâche comme terminée
     public void markTaskAsComplete(int index) {
-        if (index >= 0 && index < tasklist.size()) {
-            tasklist.get(index).setCompleted(true);
+        if (index >= 0 && index < tasklist.items.size()) {
+            tasklist.items.get(index).setCompleted(true);
         }
     }
 }
